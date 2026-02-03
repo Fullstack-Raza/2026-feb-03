@@ -1,11 +1,11 @@
-// Task 1 
+// Task 1
 // let age = 24
 // let age2 = age+5
 // console.log(`After 5 years I will be: ${age2}`)
 
 // task 2
 // let a = 10
-// let b = 3 
+// let b = 3
 // console.log(a+b)
 // console.log(a-b)
 // console.log(a*b)
@@ -32,7 +32,7 @@
 //     console.log("Fail");
 // }
 
-// task 5 
+// task 5
 // for(let i = 1 ; i<11 ; i++){
 //     console.log(i)
 // }
@@ -55,7 +55,7 @@
 // if(a%2 === 0){
 //     console.log(`${a} is Even number`);
 // }else{
-//   console.log(`${a} is odd number`);  
+//   console.log(`${a} is odd number`);
 // }
 // }
 // isEven(3);
@@ -67,8 +67,10 @@
 // console.log(naam.length);
 
 // task 10
-let naam = ["Ali", "Sara", "Ahmed"];
-
+// let naam = ["Ali", "Sara", "Ahmed"];
+// for(let i= 0 ; i<naam.length;i++ ){
+//     console.log(naam[i])
+// }
 
 // task 11
 // let student = {
@@ -94,4 +96,71 @@ let naam = ["Ali", "Sara", "Ahmed"];
 //     console.log("Fail");
 // }
 
+// task 13
+// let number =[2,5,8,3,10];
+// let sum = 0;
+// for(let i= 0 ; i<number.length; i++){
+// sum = sum + number[i]
+// }
+// console.log(sum)
+
+// task 14
+// let number =[2,5,8,22,3,10];
+// let max = number[0];
+// for(let i = 0 ; i<number.length; i++){
+// if (   max <  number[i] ){
+//     max = number[i]
+// }
+// }
+// console.log(max)
+
+// task 15
+// let number =[2,5,8,22,3,10,12,15,21,25,26,47,56];
+// let count = 0
+// for(let i = 0 ; i<number.length;i++){
+//     if(number[i]%2 === 0){
+//         console.log(number[i]);
+//         count++
+//     }
+// }
+// console.log(count);
+
+// task16
+// let numbers = [2,5,8,22,3,10];
+// let odd = [];
+// let even = [];
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 === 0) {
+//     even.push(numbers[i]);
+//   } else {
+//     odd.push(numbers[i]);
+//   }
+// }
+// console.log(odd);
+// console.log(even);
+
+// task 17
+// let numbers = [2, 5, 8, 22, 3, 10];
+// let max = numbers[0];
+// let min = numbers[0];
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+
+//   if (max < numbers[i]) {
+//     max = numbers[i];
+//   }
+//   if (numbers[i] < min) {
+//     min = numbers[i];
+//   }
+//   sum = sum + numbers[i];
+// }
+// let average = sum / numbers.length ;
+// console.log(`${max}  max number in this arry`);
+// console.log(`${min}  min number in this arry`);
+// console.log(`${sum}  sum of  numbers in this arry`);
+// console.log(`${average} this is average number of    numbers in this arry`);
+
+// task 18
+let numbers = [2,5,8,5,3,10,2,8];
 
